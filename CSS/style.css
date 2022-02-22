@@ -232,7 +232,7 @@ header .icons #menu-bars {
 .goods .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 .goods .box-container .box {
@@ -384,7 +384,7 @@ header .icons #menu-bars {
 .menu .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 .menu .box-container .box {
@@ -529,6 +529,7 @@ header .icons #menu-bars {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap: 1.5rem;
+    padding: 1rem;
 }
 
 .footer .box-container .box h3 {

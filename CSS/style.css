@@ -99,7 +99,7 @@ header {
     left: 0;
     right: 0;
     background: var(--light);
-    padding: 0 7%;
+    padding: 0 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,17 +107,9 @@ header {
     box-shadow: var(--box-shadow);
 }
 
-header .logo {
-    color: var(--black);
-    font-size: 2.5rem;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-}
-
 header .logo img {
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 8rem;
 }
 
 header .navbar a {
@@ -136,7 +128,6 @@ header .navbar a:hover {
 header .icons i,
 header .icons a {
     cursor: pointer;
-    margin-left: .5rem;
     height: 4.5rem;
     line-height: 4.5rem;
     width: 4.5rem;
